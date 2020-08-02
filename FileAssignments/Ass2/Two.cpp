@@ -1,7 +1,5 @@
 #include "Employee.h"
 #include<fstream>
-#include<iostream>
-using namespace std;
 int main()
 {
 	cEmployee E1, E2;

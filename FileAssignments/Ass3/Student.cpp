@@ -1,7 +1,4 @@
 #include "Student.h"
-#include <iostream>
-using namespace std;
-
 cStudent::cStudent()
 {
 	roll = 1;

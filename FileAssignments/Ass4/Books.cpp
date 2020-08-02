@@ -1,7 +1,4 @@
 #include "Books.h"
-#include <iostream>
-using namespace std;
-
 cBooks::cBooks()
 {
 	bkno = 0;
