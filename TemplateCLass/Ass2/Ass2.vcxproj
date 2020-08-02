@@ -117,11 +117,14 @@
   <ItemGroup>
     <ClCompile Include="EmpMain.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="emp.cpp" />
     <ClCompile Include="stack.cpp" />
     <ClCompile Include="str.cpp" />
-    <ClCompile Include="strmain.cpp" />
+    <ClCompile Include="strmain.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="emp.h" />
