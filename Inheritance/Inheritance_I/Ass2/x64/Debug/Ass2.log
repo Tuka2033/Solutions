@@ -4,7 +4,7 @@
   person.cpp
   str.cpp
   student.cpp
-D:\Know-IT\Inheritance_I\Ass2\student.cpp(13,8): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-D:\Know-IT\Inheritance_I\Ass2\student.cpp(17,9): warning C4244: 'return': conversion from 'const float' to 'int', possible loss of data
+D:\home practice\Solutions\Inheritance\Inheritance_I\Ass2\student.cpp(13,8): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\home practice\Solutions\Inheritance\Inheritance_I\Ass2\student.cpp(17,9): warning C4244: 'return': conversion from 'const float' to 'int', possible loss of data
   Generating Code...
-  Ass2.vcxproj -> D:\Know-IT\Inheritance_I\x64\Debug\Ass2.exe
+  Ass2.vcxproj -> D:\home practice\Solutions\Inheritance\Inheritance_I\x64\Debug\Ass2.exe
